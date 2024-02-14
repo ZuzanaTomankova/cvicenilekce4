@@ -1,14 +1,12 @@
 package cz.engeto.ja;
 
-import java.math.BigDecimal;
-
-public class Computers {
+public class Computer {
 
     private String description;
     private int yearOfProduction;
     private double price;
 
-    public Computers(String description, int yearOfProduction, double price) {
+    public Computer(String description, int yearOfProduction, double price) {
         this.description = description;
         this.yearOfProduction = yearOfProduction;
         this.price = price;
